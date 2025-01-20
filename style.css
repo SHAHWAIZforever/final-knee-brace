@@ -1,0 +1,597 @@
+
+  /* General Reset */
+  * {
+    padding: 0;
+    margin: 0;
+}
+html {
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    background-color: #0d838f;
+   
+   
+}
+
+header>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header>ul>li {
+    list-style: none;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+header>ul>li>img {
+    height: 46px;
+    width: 170px;
+}
+
+/* Carousel Styles */
+.container {
+    background-color:none;
+    box-sizing: border-box;
+    overflow: hidden;
+ 
+}
+
+.carousel-inner img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+   
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.carousel-thumbnails img {
+    max-width: 80px;
+    max-width: 80px;
+    cursor: pointer;
+    margin: 5px;
+    opacity: 0.6;
+}
+
+.carousel-thumbnails img.active {
+    opacity: 1;
+}
+
+.carousel {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.carousel,
+.d-flex,
+.d-block {
+    border-radius: 16px;
+}
+
+/* Row1 Styles */
+.bigpoppins{
+    font-family: "Poppins";
+    font-weight: 700;
+}
+#buttontag1{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    max-width: 300px;
+    margin: 1%;
+}
+#buttontag1>h4{
+    color: grey;
+    text-decoration: line-through;
+    font-weight: 800;
+}
+#buttontag1>h2{
+    color: #0d838f;
+    font-weight: 800;
+}
+#buttontag1>button{
+    background-color: #0d838f;
+    font-family: "poppins";
+    font-weight: 700;
+}
+#rater1{
+    color: grey;
+}
+#img1{
+ max-height: 200px;
+ max-width: 600px;
+ display: flex;
+ margin-left:1.7vw;
+}
+.img{
+    margin: 4%;
+    text-align: center;
+}
+
+.img>img{
+   max-height:80px;
+   
+}
+.price{
+    background-color: #df7304;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    max-height: 120px;
+   min-height: 50px;
+    min-width: 300px;   /* Ensures the button is at least 300px wide */
+max-width: 600px;   /* Optional: limit the maximum width */
+width: 100%;        /* Makes the button responsive within the min and max limits */
+padding: 20px 20px; 
+box-shadow: 0 0 4px 1px grey;
+}
+.price:hover{
+    background-color: #df7304;
+}
+.col-lg-6>h5>i{
+    font-size: 1.5rem;
+    color: #0d838f;
+    margin: 1.5%;
+}
+.row1 {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 0px 30px 0px 30px;
+}
+/* user >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#verify{
+max-height: 25px;
+max-width: 25px;
+}
+#userid{
+max-width: 70px;
+max-height: 70px;
+border-radius: 50%;
+
+}
+#username{
+font-family: "poppins";
+font-weight:700;
+white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        
+}
+
+
+
+.widthset{
+max-width: 550px;
+max-height: 330px;
+border-radius: 16px;
+box-shadow: 0 0 10px 1px grey;
+padding:2vw;
+
+
+}
+
+.seting{
+margin-left: 6vw;
+margin-top: -2vw;
+text-decoration: underline;
+
+
+color: rgb(17, 17, 92);
+}
+
+#setingh6{
+font-family: "poppins";
+font-weight: 700;
+margin:1rem;
+
+}
+.thirdr{
+margin-top: 1vw;
+}
+
+.col2{
+    max-width: 600px;
+    
+   overflow: hidden;
+   border-radius: 16px;
+}
+.colr{
+    box-sizing: border-box;
+    padding-left:3vw;
+}
+.col2vid>video{
+height: 100%;
+width: 100%;
+border-radius: 16px ;
+}
+.col2vid>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px ; 
+}
+.thickblue{
+    font-family: "poppins";
+    font-weight: 700;
+    color: #0d838f;
+}
+.thickp{
+    font-weight: 700;
+}
+
+.col-12>p{
+    font-size: 20px;
+    max-width: 600px;
+    font-family: "poppins";
+}
+.colr>h6{
+    font-weight: 700;
+}
+.bluehead{
+    background-color: #0d838f;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    
+    max-width: fit-content;
+   
+    padding: 2px 12px 2px 12px;
+    font-weight: lighter;
+}
+.lineborder{
+    border-top: 3px solid #0d838f;
+    border-bottom: 3px solid #0d838f;
+}
+.line>img{
+    
+max-height: 50px;
+}
+.headlogo{
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 700;
+}
+.headlogo>h4{
+    font-weight: 700;
+}
+.headlogo>h1{
+    border: 8px solid white;
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+    background-color: #0d838f;
+}
+.smimg{
+    text-align: center;
+    font-family: "poppins";
+}
+.smimg>img{
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 1px grey;
+    margin: .5rem;
+}
+.limg{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 18px;
+}
+.limg>img{
+height: 600px;
+transform: translateY(-15px);
+border-radius: 18px;
+}
+#imgblue{
+    border: 2px solid rgb(81, 174, 174);
+}
+#blue{
+    background-color:rgb(81, 174, 174);
+}
+.colr2>h5{
+   margin: 20px;
+}
+.pab{
+    position: relative;
+}
+.b48{
+    background-color: #0d838f;
+    color: white;
+    border-radius: 16px;
+    position: absolute;
+    right: 0;
+    
+}
+.b48:hover{
+    background-color: #0e636d;
+}
+#span1{
+    font-size: 2rem;
+    display: block;
+    font-weight: 700;
+
+}
+.poppin{
+    font-family: "poppins";
+}
+.rev>.border>img{
+    height: 100%;
+    width: 109%;
+    margin-left: -16px;
+    
+    border-top-left-radius:16px ;
+    border-top-right-radius: 16px;
+
+}
+
+.padding{
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#verifytag{
+  
+   text-decoration: underline;
+   color: rgb(37, 37, 104);
+}
+
+/* >>>>>>>>>>>>>>>>> */
+.flexing{
+    display: flex;
+}
+#revbtn{
+  border: none;
+  max-width: 120px;
+  border-radius: 16px;
+  height: 30px;
+  box-shadow: 0 0 6px 1px grey;
+  padding: 2px 1% 2px 1%;
+
+}
+
+.margin{
+    display: flex;
+    justify-content: center;
+   margin-left: 1px;
+   margin-top: -13px;
+  
+   height: 40px;
+   
+  
+}
+.smallsize{
+    height: 200px;
+}
+.rowset{
+    overflow: hidden;
+    padding: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-image:url(https://img.funnelish.com/15659/125997/1694887024-Untitled%20design%20%283%29%20%281%29.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.rowset2{
+    overflow: hidden;
+    padding: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-image:url(https://img.funnelish.com/18903/310055/1710937262-Aktivlife-polvituki-kokemuksia_480x480.jpg  );
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+}
+.rowset3{
+    overflow: hidden;
+    padding: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-image:url(https://img.funnelish.com/15659/125997/1694886941-Untitled%20design%20%282%29%20%281%29.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+}
+.bordering{
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.container .row > .col-lg-4 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light grey shadow */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    transition: box-shadow 0.3s ease-in-out; /* Optional: Smooth transition for hover effect */
+}
+.heading{
+    background-color: #0d838f;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.orange{
+    color: orange;
+}
+.colr3{
+    text-align: center;
+    font-family: "poppins";
+    
+}
+.colr3>h4{
+    font-weight: 630;
+}
+.accordion1{
+    text-align: center;
+}
+.accordion1>h1{
+    font-family: "poppins";
+}
+/*  */
+.accordion {
+    width: 600px;
+    margin: 20px auto;
+}
+/*  */
+.accordion{
+    font-family: "poppins";
+}
+/* Remove the focus outline (blue border) from the accordion button */
+.accordion-button:focus {
+    box-shadow: none; /* Removes the blue focus outline */
+    outline: none; /* Removes any outline */
+}
+
+/* Change the hover and active color of the accordion header to off-white */
+.accordion-body{
+    font-size: large;
+}
+.accordion-button:hover,
+.accordion-button:active {
+    background-color: #f2e1e1; /* Off-white color */
+    color: black; /* Optional: Set text color to black on hover/active */
+}
+.accordion-button:hover h4{
+    font-weight: 700;
+}
+
+/* Remove the border from the accordion header */
+.accordion-button {
+    border: none; /* Removes the border */
+    font-weight: bold; /* Makes the text bold */
+    background-color:none/* Set off-white as the default background */
+}
+
+/* Make the text inside the accordion header bolder */
+.accordion-button .accordion-header {
+    font-weight: bolder; /* Makes text inside the header even bolder */
+}
+
+/* Optional: Change the background color when the accordion is collapsed */
+.accordion-button:not(.collapsed) {
+    background-color: #ebeef1; /* Off-white color when expanded */
+    color: black; /* Optional: Text color for active state */
+}
+
+
+/*  */
+.imges{
+    background-color: #9edfe6;
+    box-sizing: border-box;
+    padding: 6vw;
+    
+}
+
+.rowborder{
+    border: 5px solid white;
+}
+.colrr>h2{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.colrr{
+    text-align: center;
+}
+.colrr>h1{
+font-size:8vw;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "poppins";
+}
+.colrr>h3{
+    font-size: 4vw;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "poppins";
+}
+#coloring{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "poppins";
+}
+#moveleft{
+    margin-left: -4px;
+}
+#pchange{
+    color: white;
+    font-size: 40px;
+    font-family: "poppins";
+    font-weight: 700;
+    width: 80vw;
+    text-align: center;
+    
+}
+.foot>img{
+    max-height: 60px;
+    margin-bottom: 10px;
+}
+.foot{
+    background-color: #0d838f;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 0 30px 0 30px;
+}
+#bluelog{
+    max-height: 40px;
+}
+.pricing{
+    max-height: 40px;
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+#itsmoving {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;  /* Initially hidden */
+    z-index: 1000;  /* Make sure it's on top */
+}
+.col-lg-6{
+    margin-bottom: 10px;
+}
+.margining{
+    margin-top: 10px;
+}
+/*  */
+/* <div class="col-12 col-md-4">
+  <div class="row">
+    <div class="col-12 border p-3 rowset">
+   
+    </div>
+   <div class="row margin"> <button id="revbtn">⭐⭐⭐⭐</button></div>
+  </div>
+  <div class="row">
+    <div class="col-12 border p-3 flexing">
+      <div class="e border p-3"><img id="userid" src="https://img.funnelish.com/15659/125997/1694028382-AktivLifenewPDP_11_100x100.webp" alt=""></div>
+      <div class="e border p-3">
+        <div class="row border"><h3>Eric.F</h3></div>
+        <div class="row border"><h6 id="verifytag">Verified customer</h6></div>
+      </div>
+      <div class="e border p-3"><img id="verify" src="https://img.funnelish.com/10101/169449/1700523011-verify%20%285%29.png" alt=""></div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 border p-3"><p>"Now there is light in the tunnel. I ordered the product in the fall and after about a month I stopped taking painkillers. I use it daily and the difference is huge. At the beginning of the year I went to the occupational doctor and was on sick leave a few times because I had severe daily pain from osteoarthritis. If I had known they existed, I would have taken them 10 years ago."</p></div>
+  </div>
+</div> */

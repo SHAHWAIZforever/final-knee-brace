@@ -1,0 +1,27 @@
+@media(max-width:700px){
+
+#mobileno{
+    display: none;
+            }
+          header>ul{
+            margin-left: -30px;
+            
+          }
+          #username{
+       
+        font-family: "poppins";
+        font-weight:700;
+        min-width: 200px;
+        white-space: wrap;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                
+     } 
+    
+     .colr{
+      box-sizing: border-box;
+      padding-left: 0px;
+  }    
+ 
+
+     }
