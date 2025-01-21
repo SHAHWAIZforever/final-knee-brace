@@ -572,6 +572,11 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 .margining{
     margin-top: 10px;
 }
+.priced{
+    max-width: 400px;
+    height: 70px;
+    font-size: medium;
+}
 /*  */
 /* <div class="col-12 col-md-4">
   <div class="row">
