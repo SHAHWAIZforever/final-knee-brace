@@ -348,7 +348,7 @@ border-radius: 18px;
     padding-right: 10px;
 }
 #verifytag{
-  
+   margin-left: 10px;
    text-decoration: underline;
    color: rgb(37, 37, 104);
 }
@@ -376,6 +376,10 @@ border-radius: 18px;
    height: 40px;
    
   
+}
+
+.col-12>p{
+    margin: 10px;
 }
 .smallsize{
     height: 200px;
@@ -415,7 +419,7 @@ border-radius: 18px;
     border-bottom-left-radius: 16px;
 }
 .container .row > .col-lg-4 {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light grey shadow */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
     border-radius: 8px; /* Optional: Add rounded corners */
     transition: box-shadow 0.3s ease-in-out; /* Optional: Smooth transition for hover effect */
 }
