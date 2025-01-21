@@ -536,7 +536,8 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     font-size: 40px;
     font-family: "poppins";
     font-weight: 700;
-    width: 80vw;
+    max-width: 600px;
+    min-width: 290px;
     text-align: center;
     
 }
@@ -577,7 +578,8 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin-top: 10px;
 }
 .priced{
-    max-width: 400px;
+    max-width: 290px;
+    min-width: 290px;
     height: 70px;
     font-size: medium;
 }
